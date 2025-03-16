@@ -280,6 +280,7 @@ button:focus{
 .team-desc {
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-card{
@@ -393,6 +394,10 @@ button:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+}
+
+.portfolio-card:hover .img-trans{
     transform: translateY(0%);
 }
 
@@ -461,8 +466,8 @@ footer{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover
-.link:focus{
+.footer-li a:hover,
+.footer-li a:focus{
     background-color: #31d0aa;
 
 }
